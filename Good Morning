@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int time;
+    
+    cout << "Enter the current time\n";
+    cin >> time;
+
+    cout << endl;
+
+    if (time < 12) {
+        cout << "It is AM";
+    }
+    else if ((time >= 12) && (time <= 24)) {
+        cout << "It is PM";
+    }
+    else {
+        cout << "Incorrect Time";
+    }
+}
+
