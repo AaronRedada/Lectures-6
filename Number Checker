@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double x;
+
+    cout << "Enter the number you wish to determine whether positive, negative or zero: \n";
+    cin >> x;
+
+    if (x < 0) {
+        cout << x << " is a Negative number.";
+    }
+    else if (x > 0) {
+        cout << x << " is a Positive number.";
+    }
+    else if (x ==    0) {
+        cout << x << " is Zero.";
+    }
+    else {
+        cout << x << " Invalid.";
+    }
+
+    system("pause>0");
+ 
+}
+
