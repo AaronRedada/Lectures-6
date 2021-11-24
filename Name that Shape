@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x;
+    cout << "Enter the Number of sides of a shape (3 - 10) and I'll name it!:\n";
+    cin >> x;
+
+    if (x == 3) {
+        cout << "\nIt's a Triangle.\n";
+    }
+    else if (x == 4) {
+        cout << "\nIt's a Square.\n";
+    }
+    else if (x == 5) {
+        cout << "\nIt's a Pentagon.\n";
+    }
+    else if (x == 6) {
+        cout << "\nIt's a Hexagon.\n";
+    }
+    else if (x == 7) {
+        cout << "\nIt's a Heptagon.\n";
+    }
+    else if (x == 8) {
+        cout << "\nIt's a Octagon.\n";
+    }
+    else if (x == 9) {
+        cout << "\nIt's a Nonagon.\n";
+    }
+    else if (x == 10) {
+        cout << "\nIt's a Decagon.\n";
+    }
+    else {
+        cout << "\n Incorrect Input \n";
+    }
+}
