@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double pp, sp, pf;
+
+    cout << "Profit or Loss Calculator\n";
+    cout << "\nEnter the Purchase Price:\n";
+    cin >> pp;
+
+    cout << "Enter the Sale Price:\n";
+    cin >> sp;
+
+    if (pp > sp) {
+        pf = pp - sp;
+        cout << "\nLoss: " << pf;
+        cout << endl;
+    }
+    else if (sp > pp) {
+        pf = sp - pp;
+        cout << "\nProfit: " << pf;
+        cout << endl;
+    }
+    else {
+        cout << "\nIncorrect Input\n";
+    }
+
+
+}
